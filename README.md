@@ -24,7 +24,7 @@ Construct a basic solution for a weighted acyclic graph.
  Many works arrive at the entrance. Each work is characterized by three temporal parameters:
  - time of receipt of the i-th input work in the OS
  - time of release of the i-th work with OS
- - execution time of the i-th work in relative units on the computing node having the maximum productivity
+ - execution time of the i-th work in relative units on the computing node having the maximum productivity<br />
 The computer system has many resources. Each resource is characterized by the productivity of Rj. For each i-th work it is possible to define time of the decision of the i-th problem on the j-th resource in relative units. To do this, define Rmax as Rmax = max {R1 .., Rn}. Determine the relative performance of each computing node Rj relative to Rmax. For this
  calculated Zj = Rj / Rmax, j = 1..n.
  Having the relative performance of each node, you can determine the ratio of robot-resource, taking into account the execution time and performance of each computing node.
